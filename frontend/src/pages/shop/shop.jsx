@@ -1,11 +1,22 @@
-import React from 'react'
+import React from 'react';
+import { PRODUCTS } from '../../products';
+import { Product } from "./product";
+import "./shop.css"
 //rfce
-function Shop() {
+    function Shop () {
   return (
-    <div>
-      Shop
-    </div>
-  )
-}
+    <div className='shop'>
+        <div className='shopTitle'>
+            <h1>Norbert Shop</h1>
+        </div>
 
-export default Shop
+        <div className='products'>
+            {PRODUCTS.map((product)=> (
+               <Product data={product}/>
+                ))}
+        </div>
+    </div>
+  );
+};
+
+export default Shop;
