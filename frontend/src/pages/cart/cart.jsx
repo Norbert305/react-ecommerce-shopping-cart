@@ -14,6 +14,9 @@ function Cart() {
 
   const navigate = useNavigate();
 
+  //So basically, the PRODUCTS Array is being mapped. So if the object data from inside the cartItems[our value id] is not 0
+  //Then you can render the CartItem component onto our cart page showing our card. 
+
   return (
     <div className='cart'>
       <div>
@@ -44,5 +47,5 @@ function Cart() {
     </div>
   )
 }
-
+//If the total amount of the items is > 0 ? show the UI buttons : Cart is empty
 export default Cart

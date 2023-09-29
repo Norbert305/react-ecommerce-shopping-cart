@@ -12,7 +12,7 @@ export function Product(props) {
     // <Product data={product} /> ----> props.data
     const { addToCart, cartItems } = useContext(ShopContext);
 //useContext is used to transfer the addToCart and cartItems functionality to different files without retyping purposes for reuse.
-    const cartItemAmount = cartItems[id]
+    const cartItemAmount = cartItems[id]//---> comes from the useContext being imported for reuse. 
 
   return (
     <div className='product' >
@@ -28,5 +28,7 @@ export function Product(props) {
     </div>
   )
 }
-//The addToCart is used to add the items to our cart component. The id from the props.data passes inside the addToCart(id)
+//cartItemAmount can be visible with the button ----> Only shows if the cartAmount is > 0 with the value inside of (parentheses)
+//The addToCart is used to populate the data for our item count. Check the console.log(item count shown here)
+
 export default Product 
