@@ -9,6 +9,11 @@ import product7 from "./assets/products/7.webp";
 import product8 from "./assets/products/8.webp";
 
 
+//png files dragged and dropped into the ./assets/products folder
+//the png files are then imported here on the products.js file
+
+//PRODUCTS Array is created for our playful data
+
 export const PRODUCTS = [
     {
         id: 1,

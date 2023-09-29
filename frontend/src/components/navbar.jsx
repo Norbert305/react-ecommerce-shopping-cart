@@ -4,6 +4,9 @@ import {ShoppingCart} from 'phosphor-react'
 import "./navbar.css"
 //rfce
 function Navbar() {
+
+  //import our shopping cart from phosphor-react
+  //import navigation links from react-router-dom
   return (
     <div className='navbar'>
       <div className='links'>
