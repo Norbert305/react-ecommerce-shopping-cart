@@ -1,5 +1,12 @@
 # React Shopping Cart Project
 
+
+<br/>
+
+<strong><i>Frontend structured React.js project for fun use on your computer or desktop</i></strong>
+
+<br/>
+
 ![image](https://github.com/Norbert305/react-ecommerce-shopping-cart/assets/83515541/52e7ec93-9691-4a2a-8449-a31b96a750a7)
 
 
