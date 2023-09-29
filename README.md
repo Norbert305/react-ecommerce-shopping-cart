@@ -9,7 +9,7 @@
 
 # Functionalities
 
-<p>Add items to cart, remove items from cart, and calculate the price tag of each item in your cart</p>
+<p>Add items to the cart, remove items from the cart, and calculate the price tag of each item in your cart</p>
 
 <p><strong><a href="https://norbs-shop.com/">Live Demo</a ></strong></p>
 
