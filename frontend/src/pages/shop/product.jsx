@@ -1,5 +1,8 @@
 import React, { useContext } from 'react'
 import { ShopContext } from '../../context/shop-context'
+
+
+
 export function Product(props) {
     //retrieve the data from the mapping of the PRODUCTS array in the shop.jsx file using props
 
