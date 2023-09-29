@@ -13,6 +13,8 @@
 
 <p><strong><a href="https://norbs-shop.com/">Live Demo</a ></strong></p>
 
+<p><strong><a href="https://vimeo.com/manage/videos/869379892">Video Demonstration</a ></strong></p>
+
 
 # Items added to cart
 
