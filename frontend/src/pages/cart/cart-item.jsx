@@ -2,10 +2,10 @@ import React, {useContext} from 'react'
 import { ShopContext } from '../../context/shop-context';
 
 function CartItem(props) {
-
+    //So this card is what's being rendered inside of our cart component. Which includes all of the features from our ShopContext component
     const {id, productName, price, productImage } = props.data;
     const { cartItems, addToCart, removeFromCart, updateCartItemCount  } = useContext(ShopContext);
-
+      //props are being passed from the mapping of our PRODUCTS Array.
   return (
     <div className='cartItem'>
       <img src={productImage} />
