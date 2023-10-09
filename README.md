@@ -7,7 +7,8 @@
 
 <br/>
 
-![image](https://github.com/Norbert305/react-ecommerce-shopping-cart/assets/83515541/52e7ec93-9691-4a2a-8449-a31b96a750a7)
+![image](https://github.com/Norbert305/react-ecommerce-shopping-cart/assets/83515541/f6a6fcbe-583b-4f56-84dc-246717d6825f)
+
 
 
 # How to get started
